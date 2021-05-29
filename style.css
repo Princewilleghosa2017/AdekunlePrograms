@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -30,4 +31,30 @@ nav ul li {
   list-style: none;
   text-decoration: none;
   justify-content: center;
+}
+
+
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    
+}
+
+
+.form-group input, .form-group select {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid rgb(213, 203, 203);
+    background-color:rgba(235, 231, 231, 0.289) ;
+}
+
+.form-group button {
+  width: 100%;
+  background-color: var(--backgroundColor);  
+  border: none;
+  padding: 10px 0;
+  color: white;
 }

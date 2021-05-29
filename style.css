@@ -10,12 +10,17 @@
   --display: flex;
 }
 
+header {
+     background-color: var(--backgroundColor);
+}
+
 nav {
-  background-color: var(--backgroundColor);
+ 
   display: var(--display);
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   height: 70px;
+  margin: auto 25px;
   color: var(--color);
 }
 
@@ -33,27 +38,25 @@ nav ul li {
   justify-content: center;
 }
 
-
 .form-container {
-    max-width: 600px;
-    margin: 20px auto;
-    
+  max-width: 600px;
+  margin: 20px auto;
 }
 
-
-.form-group input, .form-group select {
-    display: block;
-    width: 100%;
-    padding: 10px 10px;
-    outline: none;
-    margin-bottom: 10px;
-    border: 1px solid rgb(213, 203, 203);
-    background-color:rgba(235, 231, 231, 0.289) ;
+.form-group input,
+.form-group select {
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  outline: none;
+  margin-bottom: 10px;
+  border: 1px solid rgb(213, 203, 203);
+  background-color: rgba(235, 231, 231, 0.289);
 }
 
 .form-group button {
   width: 100%;
-  background-color: var(--backgroundColor);  
+  background-color: var(--backgroundColor);
   border: none;
   padding: 10px 0;
   color: white;
